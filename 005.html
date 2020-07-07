@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Check Leap year</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	<script type="text/javascript">
+		var year = prompt("Enter check leap year from 1600 until 2020");
+		if (year>=1600) {
+		   if ((year%4==0) && (year %100!=0) || (year%400==0)) {
+		   	 document.write(year + " " + "adalah tahun kabisat");
+		   } else {
+		   	  document.write(year + " " + "Bukan tahun kabisat");
+		   }
+		}
+	</script>
+
+	
+</body>
+</html>

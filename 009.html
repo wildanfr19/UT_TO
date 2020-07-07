@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Menghilangkan data Ganda</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+	<script type="text/javascript">
+		const city = ['Jakarta','Aceh','Malang','Medan','Bontang','Jogja','Jakarta','Bandung','Malang','Solo','Palembang','Bandung'];
+
+		const uniqueArray = new Set(city);
+		const backToArray = [...uniqueArray];
+
+		document.write("Sebelum dihapus :" +" "+ city + "<br>");
+		document.write("Setelah dihapus :"+"  "+backToArray);
+	</script>
+	
+</body>
+</html>
